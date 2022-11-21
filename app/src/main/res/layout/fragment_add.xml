@@ -35,7 +35,7 @@
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/addAge_et"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/add"
-        app:layout_constraintEnd_toEndOf="@+id/editTextNumber"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintEnd_toEndOf="@+id/addAge_et"
+        app:layout_constraintStart_toStartOf="@+id/addAge_et"
+        app:layout_constraintTop_toBottomOf="@+id/addAge_et" />
 </androidx.constraintlayout.widget.ConstraintLayout>
