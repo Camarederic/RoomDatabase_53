@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/addFragment">
+    app:startDestination="@id/listFragment">
 
     <fragment
         android:id="@+id/addFragment"
         android:name="com.example.roomdatabase_53.fragments.add.AddFragment"
-        android:label="fragment_add"
+        android:label="Add"
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/listFragment"
         android:name="com.example.roomdatabase_53.fragments.list.ListFragment"
-        android:label="fragment_list"
+        android:label="List"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_addFragment"
