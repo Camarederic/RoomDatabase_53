@@ -9,10 +9,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.roomdatabase_53.R
-import com.example.roomdatabase_53.data.UserViewModel
-import kotlinx.android.synthetic.main.fragment_list.*
+import com.example.roomdatabase_53.viewmodel.UserViewModel
 import kotlinx.android.synthetic.main.fragment_list.view.*
 
 

@@ -1,4 +1,4 @@
-package com.example.roomdatabase_53.data
+package com.example.roomdatabase_53.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
